@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        TARGET_HOST = '15.207.116.230'        // Replace with your EC2 IP
+        TARGET_HOST = '15.207.247.191'        // Replace with your EC2 IP
         SSH_USER = 'ec2-user'
         SSH_CREDENTIALS_ID = 'ssh-access-key'     // Jenkins SSH credential ID
         REMOTE_DIR = '/home/ec2-user/project-2'
