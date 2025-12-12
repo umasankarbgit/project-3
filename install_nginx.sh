@@ -9,7 +9,7 @@ sudo systemctl enable nginx
 sudo systemctl start nginx
 
 echo "📄 Copying HTML file to NGINX root..."
-sudo cp /home/ec2-user/project-2/index.html /usr/share/nginx/html/index.html
+sudo cp /home/ec2-user/project-3/index.html /usr/share/nginx/html/index.html
 
 echo "✅ Deployment complete! NGINX is running."
 
